@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerMaster - Hamburgueria Artesanal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Burger<span> Master</span></a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#reviews">Depoimentos</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Hambúrgueres Artesanais <span>Premium</span></h1>
+            <p>Descubra o sabor autêntico com nossos ingredientes selecionados e preparo especial.</p>
+            <a href="#menu" class="btn">Ver Menu</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="heading">Nossa <span>História</span></h2>
+                    <p>Fundada em 2010, a BurgerMaster nasceu da paixão por hambúrgueres artesanais. Começamos como um pequeno food truck e hoje somos referência em hamburguerias gourmet na região.</p>
+                    <p>Nossa missão é oferecer experiências gastronômicas memoráveis, utilizando apenas ingredientes frescos e de alta qualidade, preparados com técnicas artesanais.</p>
+                    <a href="#menu" class="btn">Conheça nosso menu</a>
+                </div>
+                <div class="about-images">
+                    <div class="about-img1">
+                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Cozinha da hamburgueria">
+                    </div>
+                    <div class="about-img2">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1398&q=80" alt="Hambúrguer artesanal">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Menu -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="heading">Nosso <span>Menu</span></h2>
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1398&q=80" alt="Burger Master">
+                    <h3>Burger Master</h3>
+                    <p>Pão brioche, blend 180g, queijo cheddar, bacon, alface, tomate e molho especial.</p>
+                    <div class="price">R$ 32,90</div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1422&q=80" alt="Cheese Bacon">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão australiano, blend 160g, queijo prato, bacon crocante, cebola caramelizada.</p>
+                    <div class="price">R$ 28,90</div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1561758033-48d52648ae8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Veggie Delight">
+                    <h3>Veggie Delight</h3>
+                    <p>Pão integral, hambúrguer de grão-de-bico, queijo vegano, rúcula e abacate.</p>
+                    <div class="price">R$ 26,50</div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1381&q=80" alt="Double Cheddar">
+                    <h3>Double Cheddar</h3>
+                    <p>Dois blends de 120g, cheddar derretido, cebola roxa, picles e molho barbecue.</p>
+                    <div class="price">R$ 35,90</div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1398&q=80" alt="Chicken Crispy">
+                    <h3>Chicken Crispy</h3>
+                    <p>Pão de batata, filé de frango empanado, queijo coalho, alface e molho de ervas.</p>
+                    <div class="price">R$ 27,90</div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                
+                <!-- Item 6 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Barbecue Ranch">
+                    <h3>Barbecue Ranch</h3>
+                    <p>Pão de cerveja, blend 180g, queijo mussarela, cebola crispy e molho barbecue.</p>
+                    <div class="price">R$ 30,50</div>
+                    <button class="btn">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="heading">Depoimentos de <span>Clientes</span></h2>
+            <div class="reviews-slider">
+                <div class="slider-container">
+                    <!-- Depoimento 1 -->
+                    <div class="review-card active">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Melhor hambúrguer que já comi! O blend é suculento e os ingredientes super frescos. Vale cada centavo!"</p>
+                        <div class="customer">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente">
+                            <h4>Carlos Silva</h4>
+                        </div>
+                    </div>
+                    
+                    <!-- Depoimento 2 -->
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"Adorei o ambiente e o atendimento. O Veggie Delight é incrível, nem parece que não tem carne!"</p>
+                        <div class="customer">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente">
+                            <h4>Ana Oliveira</h4>
+                        </div>
+                    </div>
+                    
+                    <!-- Depoimento 3 -->
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sou cliente fiel há 3 anos. O Double Cheddar é minha paixão, sempre que posso peço um!"</p>
+                        <div class="customer">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente">
+                            <h4>Roberto Santos</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="heading">Fale <span>Conosco</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua dos Sabores, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
+                    <p><i class="fas fa-envelope"></i> contato@burgermaster.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Terça a Domingo: 18h - 23h</p>
+                    <p>Sexta e Sábado: 18h - 00h</p>
+                </div>
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <input type="text" placeholder="Assunto">
+                    <textarea placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>BurgerMaster</h3>
+                    <p>Hamburgueria artesanal com ingredientes selecionados e preparo especial para oferecer a melhor experiência gastronômica.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reviews">Depoimentos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Assine nossa newsletter para receber promoções e novidades.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu E-mail">
+                        <button type="submit" class="btn">Assinar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BurgerMaster. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
