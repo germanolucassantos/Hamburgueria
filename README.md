@@ -31,7 +31,7 @@ Rodapé: Links e informações adicionais, como perfis de mídia social. <br/>
 <br>
 
 <p align="center">
-  <img alt="Hamburgueria" src=".github/preview.jpg">
+  <img alt="Hamburgueria" src=".github/preview.png">
 </p>
 
 ## 🚀 Tecnologias
